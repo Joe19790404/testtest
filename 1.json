@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    {"id": "0", "label": "A", "class": "农、林、牧、渔业","x": 1000, "y": -100 },
+    {"id": "1", "label": "A01", "class": "农业","x": 300, "y": -10 },
+    {"id": "2", "label": "A02", "class": "林业","x": 10, "y": 10 },
+    {"id": "3", "label": "A03", "class": "畜牧业","x": 320, "y": -100 },
+    {"id": "4", "label": "A04", "class": "渔业","x": 100, "y": 900 },
+    {"id": "5", "label": "A05", "class": "农、林、牧、渔服务","x": 120, "y": 213 }
+  ],
+  "edges": [
+    {"source": "0", "target": "1", "weight": 2 },
+    {"source": "0", "target": "2", "weight": 1 },
+    {"source": "0", "target": "3", "weight": 1 },
+    {"source": "0", "target": "4","weight": 1 },
+    {"source": "0", "target": "5",  "weight": 1 },
+    {"source": "0", "target": "6", "weight": 1 }
+  ]
+}
